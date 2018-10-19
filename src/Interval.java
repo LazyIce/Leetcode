@@ -1,7 +1,6 @@
-package PACKAGE_NAME;
-
-/**
- * Created by xiebin on 10/16/18.
- */
 public class Interval {
+     int start;
+     int end;
+     Interval() { start = 0; end = 0; }
+     Interval(int s, int e) { start = s; end = e; }
 }
