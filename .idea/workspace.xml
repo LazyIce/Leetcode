@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e7dcf93-9c4a-4ce1-9eb9-432467da165e" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/GrayCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Subsets2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Combinations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Combinations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Decoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Decoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MinimumPathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MinimumPathSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PartitionList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PartitionList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RemoveDuplicatesFromSortedArray2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RemoveDuplicatesFromSortedArray2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RemoveDuplicatesFromSortedList2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RemoveDuplicatesFromSortedList2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RevorControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RevorControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Search2DMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Search2DMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SearchInRotatedSortedArray2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchInRotatedSortedArray2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SetMatrixZeroes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SetMatrixZeroes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SimpleTestQueries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SimpleTestQueries.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SimplifyPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SimplifyPath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SortColors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SortColors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Subsets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Subsets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WordSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WordSearch.java" afterDir="false" />
     </list>
     <ignored path="Leetcode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,36 +23,38 @@
     <session id="1356915088">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="13" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="2" />
+          <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="2" />
           <entry key="project.open.time.16" value="2" />
+          <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="19" />
+          <entry key="java" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="19" />
+          <entry key="JAVA" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1740" />
+          <entry key="java" value="1848" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1740" />
+          <entry key="JAVA" value="1848" />
         </counts>
       </usages-collector>
     </session>
@@ -74,7 +63,20 @@
     <favorites_list name="Leetcode" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Subsets2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="52">
+              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -122,6 +124,8 @@
         <option value="$PROJECT_DIR$/src/SimpleTestQueries.java" />
         <option value="$PROJECT_DIR$/src/RemoveDuplicatesFromSortedList2.java" />
         <option value="$PROJECT_DIR$/src/PartitionList.java" />
+        <option value="$PROJECT_DIR$/src/GrayCode.java" />
+        <option value="$PROJECT_DIR$/src/Subsets2.java" />
       </list>
     </option>
   </component>
@@ -143,7 +147,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -161,12 +164,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541048581370" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541216873583" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../HW3-bxie41/Q1" />
     <property name="settings.editor.selected.configurable" value="Console" />
@@ -482,11 +486,13 @@
       <workItem from="1540830918862" duration="17000" />
       <workItem from="1540935215178" duration="4000" />
       <workItem from="1541042383766" duration="1527000" />
+      <workItem from="1541130662278" duration="56000" />
+      <workItem from="1541215135311" duration="1193000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24504000" />
+    <option name="totallyTimeSpent" value="25753000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -499,8 +505,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27931595" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29071662" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -514,7 +521,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4967742" weight="0.32844576" />
-      <window_info active="true" anchor="bottom" x="26" y="333" width="1228" height="133" id="Terminal" order="7" sideWeight="0.4903226" visible="true" weight="0.19501466" />
+      <window_info anchor="bottom" x="26" y="333" width="1228" height="133" id="Terminal" order="7" sideWeight="0.4903226" visible="true" weight="0.19501466" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5096774" side_tool="true" weight="0.32954547" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4967742" weight="0.32991204" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
@@ -773,6 +780,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
           <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GrayCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Subsets2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
