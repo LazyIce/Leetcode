@@ -1,12 +1,9 @@
-/**
- * time:
- * space:
- */
 import java.util.List;
 import java.util.ArrayList;
 
 public class UniqueBinarySearchTrees2 {
-    public List<TreeNode> generateTrees(int n) {
+
+    public List<TreeNode> generateTrees1(int n) {
         List<TreeNode>[] res = new List[n + 1];
         res[0] = new ArrayList<>();
         if (n == 0)
@@ -36,5 +33,31 @@ public class UniqueBinarySearchTrees2 {
         cur.left = clone(root.left, n);
         cur.right = clone(root.right, n);
         return cur;
+    }
+
+    public List<TreeNode> generateTrees2(int n) {
+        if (n == 0)
+            return new ArrayList<>();
+        return genTreeList(1, n);
+    }
+
+    public List<TreeNode> genTreeList(int start, int end) {
+        List<TreeNode> list = new ArrayList<>();
+        if (start > end) {
+            list.add(null);
+        }
+        for (int idx = start; idx <= end; idx++) {
+            List<TreeNode> leftlist = genTreeList(start, idx - 1);
+            List<TreeNode> rightlist = genTreeList(idx + 1, end);
+            for (TreeNode left : leftlist) {
+                for (TreeNode right : rightlist) {
+                    TreeNode root = new TreeNode(idx);
+                    root.left = left;
+                    root.right = right;
+                    list.add(root);
+                }
+            }
+        }
+        return list;
     }
 }
