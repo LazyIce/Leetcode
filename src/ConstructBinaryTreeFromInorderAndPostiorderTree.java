@@ -1,6 +1,6 @@
 /**
- * time:
- * space:
+ * time: O(n)
+ * space: O(n)
  */
 public class ConstructBinaryTreeFromInorderAndPostiorderTree {
     public TreeNode buildTree(int[] inorder, int[] postorder) {
@@ -20,7 +20,7 @@ public class ConstructBinaryTreeFromInorderAndPostiorderTree {
                 break;
             i++;
         }
-        cur.left = helper(postEnd - inorder.length + i, inStart, i - 1, postorder, inorder);
+        cur.left = helper(postEnd + i - 1 - inEnd, inStart, i - 1, postorder, inorder);
         cur.right = helper(postEnd - 1, i + 1, inEnd, postorder, inorder);
         return cur;
     }
