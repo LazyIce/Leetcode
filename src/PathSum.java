@@ -1,15 +1,13 @@
 /**
- * time:
- * space:
+ * time: O(n)
+ * space: O(n)
  */
 public class PathSum {
     public boolean hasPathSum(TreeNode root, int sum) {
-        if (root == null)
-            return false;
-        return helper(root, sum);
+        return isSum(root, sum);
     }
 
-    public boolean helper(TreeNode node, int sum) {
-        if (root.left == null && )
+    private boolean isSum(TreeNode root, int sum) {
+        return root != null && (root.val == sum && root.left == null && root.right == null || isSum(root.left, sum - root.val) || isSum(root.right, sum - root.val));
     }
 }
