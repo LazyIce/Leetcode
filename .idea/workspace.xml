@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e7dcf93-9c4a-4ce1-9eb9-432467da165e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ValidPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WordLadder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WordLadder2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BestTimeToBuyAndSellStock3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BestTimeToBuyAndSellStock3.java" afterDir="false" />
-    </list>
+    <list default="true" id="9e7dcf93-9c4a-4ce1-9eb9-432467da165e" name="Default" comment="" />
     <ignored path="Leetcode.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -82,13 +76,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/WordLadder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+            <state relative-caret-position="858">
+              <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
-                <element signature="e#90#98#0" expanded="true" />
-                <element signature="e#271#279#0" expanded="true" />
+                <element signature="e#229#237#0" expanded="true" />
+                <element signature="e#418#426#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -209,7 +203,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545367703435" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545375991060" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../HW3-bxie41/Q1" />
     <property name="settings.editor.selected.configurable" value="Console" />
@@ -541,12 +535,12 @@
       <workItem from="1544318457196" duration="858000" />
       <workItem from="1544320985074" duration="624000" />
       <workItem from="1545061980081" duration="4245000" />
-      <workItem from="1545273052010" duration="2770000" />
+      <workItem from="1545273052010" duration="3489000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57091000" />
+    <option name="totallyTimeSpent" value="57810000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -559,9 +553,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.252443" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.252443" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -575,7 +568,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4967742" weight="0.32844576" />
-      <window_info anchor="bottom" x="26" y="333" width="1228" height="133" id="Terminal" order="7" sideWeight="0.4903226" visible="true" weight="0.2170088" />
+      <window_info active="true" anchor="bottom" x="26" y="333" width="1228" height="133" id="Terminal" order="7" sideWeight="0.4903226" visible="true" weight="0.2170088" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5096774" side_tool="true" weight="0.32954547" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4967742" weight="0.32991204" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
@@ -1037,13 +1030,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/WordLadder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        <state relative-caret-position="858">
+          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#90#98#0" expanded="true" />
-            <element signature="e#271#279#0" expanded="true" />
+            <element signature="e#229#237#0" expanded="true" />
+            <element signature="e#418#426#0" expanded="true" />
           </folding>
         </state>
       </provider>
