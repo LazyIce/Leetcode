@@ -1,93 +1,101 @@
 /**
- * time:
- * space:
+ * time: O(n*26^l) -> O(n*26^(l/2), l=len(word), n=|wordlist|
+ * space: O(n+k*l) k=num of paths
  */
 import java.util.List;
-import java.util.Map;
-import java.util.Set;
-import java.util.Queue;
 import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.ArrayDeque;
 import java.util.HashSet;
 import java.util.HashMap;
 
 public class WordLadder2 {
-    List<List<String>> results;
-    List<String> list;
-    Map<String,List<String>> map;
-    public List<List<String>> findLadders(String start, String end, Set<String> dict) {
-        results= new ArrayList<List<String>>();
-        if (dict.size() == 0)
-            return results;
+    //two BydirectionalBFS
+    public List<List<String>> findLadders(String beginWord, String endWord, List<String> wordList) {
+        List<List<String>> res = new ArrayList<>();
+        HashSet<String> dict = new HashSet<>(wordList);
+        if(!dict.contains(endWord)){
+            return res;
+        }
+        HashSet<String> set1 = new HashSet<>();
+        HashSet<String> set2 = new HashSet<>();
 
-        int curr=1,next=0;
-        boolean found=false;
-        list = new LinkedList<String>();
-        map = new HashMap<String,List<String>>();
+        set1.add(beginWord);
+        set2.add(endWord);
+        HashMap<String, List<String>> map = new HashMap<>();
+        bfs(map, set1, set2, dict, false);
 
-        Queue<String> queue= new ArrayDeque<String>();
-        Set<String> unvisited = new HashSet<String>(dict);
-        Set<String> visited = new HashSet<String>();
-
-        queue.add(start);
-        unvisited.add(end);
-        unvisited.remove(start);
-        //BFS
-        while (!queue.isEmpty()) {
-
-            String word = queue.poll();
-            curr--;
-            for (int i = 0; i < word.length(); i++){
-                StringBuilder builder = new StringBuilder(word);
-                for (char ch='a';  ch <= 'z'; ch++){
-                    builder.setCharAt(i,ch);
-                    String new_word=builder.toString();
-                    if (unvisited.contains(new_word)){
-                        //Handle queue
-                        if (visited.add(new_word)){//Key statement,Avoid Duplicate queue insertion
-                            next++;
-                            queue.add(new_word);
-                        }
-
-                        if (map.containsKey(new_word))//Build Adjacent Graph
-                            map.get(new_word).add(word);
-                        else{
-                            List<String> l= new LinkedList<String>();
-                            l.add(word);
-                            map.put(new_word, l);
-                        }
-
-                        if (new_word.equals(end)&&!found) found=true;
-
-                    }
-
-                }//End:Iteration from 'a' to 'z'
-            }//End:Iteration from the first to the last
-            if (curr==0){
-                if (found) break;
-                curr=next;
-                next=0;
-                unvisited.removeAll(visited);
-                visited.clear();
-            }
-        }//End While
-
-        backTrace(end,start);
-
-        return results;
+        List<String> path = new ArrayList<>();
+        path.add(beginWord);
+        dfs(res, path, map, beginWord, endWord);
+        return res;
     }
-    private void backTrace(String word,String start){
-        if (word.equals(start)){
-            list.add(0,start);
-            results.add(new ArrayList<String>(list));
-            list.remove(0);
+
+    private void bfs(HashMap<String, List<String>> map, HashSet<String> set1, HashSet<String> set2, HashSet<String> dict, boolean flip){
+        if(set1.isEmpty()){
             return;
         }
-        list.add(0,word);
-        if (map.get(word)!=null)
-            for (String s:map.get(word))
-                backTrace(s,start);
-        list.remove(0);
+
+        if(set1.size() > set2.size()){
+            bfs(map, set2, set1, dict, !flip);
+            return;
+        }
+
+        boolean done = false;
+        dict.removeAll(set1);
+        dict.removeAll(set2);
+
+        HashSet<String> next = new HashSet<>();
+        for(String str : set1){
+            char[] chs = str.toCharArray();
+            for(int i = 0; i < chs.length; i++){
+                char temp = chs[i];
+                for(char ch = 'a'; ch <= 'z'; ch++){
+                    if(chs[i] != ch){
+                        chs[i] = ch;
+                        String word = new String(chs);
+
+                        String key = flip ? word : str;
+                        String val = flip ? str : word;
+
+                        List<String> list = map.get(key) == null ? new ArrayList<>() : map.get(key);
+
+                        if(set2.contains(word)){
+                            done = true;
+
+                            list.add(val);
+                            map.put(key, list);
+                        }
+
+                        if(!done && dict.contains(word)){
+                            next.add(word);
+
+                            list.add(val);
+                            map.put(key, list);
+                        }
+                    }
+                }
+                chs[i] = temp;
+            }
+        }
+
+        if(!done){
+            bfs(map, set2, next, dict, !flip);
+        }
+    }
+
+    private void dfs(List<List<String>> res, List<String> path, HashMap<String, List<String>> map, String start, String end){
+        if(start.equals(end)){
+            res.add(new ArrayList<>(path));
+            return;
+        }
+
+        if(!map.containsKey(start)){
+            return;
+        }
+
+        for(String next : map.get(start)){
+            path.add(next);
+            dfs(res, path, map, next, end);
+            path.remove(path.size() - 1);
+        }
     }
 }
