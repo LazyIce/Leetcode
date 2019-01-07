@@ -1,25 +1,25 @@
 /**
- * time:
- * space:
+ * time: O(E)
+ * space: O(N)
  */
+import java.util.Map;
 import java.util.HashMap;
+
 public class CloneGraph {
-    private HashMap<Integer, UndirectedGraphNode> map = new HashMap<>();
+    Map<UndirectedGraphNode, UndirectedGraphNode> map = new HashMap<>();
+
     public UndirectedGraphNode cloneGraph(UndirectedGraphNode node) {
-        return clone(node);
-    }
-
-    private UndirectedGraphNode clone(UndirectedGraphNode node) {
-        if (node == null) return null;
-
-        if (map.containsKey(node.label)) {
-            return map.get(node.label);
+        if (node == null){
+            return null;
         }
-        UndirectedGraphNode clone = new UndirectedGraphNode(node.label);
-        map.put(clone.label, clone);
-        for (UndirectedGraphNode neighbor : node.neighbors) {
-            clone.neighbors.add(clone(neighbor));
+        UndirectedGraphNode curr = new UndirectedGraphNode(node.label);
+        map.put(node, curr);
+        for (UndirectedGraphNode nei : node.neighbors){
+            if (!map.containsKey(nei)){
+                cloneGraph(nei);
+            }
+            curr.neighbors.add(map.get(nei));
         }
-        return clone;
+        return curr;
     }
 }
