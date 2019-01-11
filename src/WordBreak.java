@@ -1,6 +1,11 @@
 import java.util.List;
 
 public class WordBreak {
+    /**
+     *
+     * time: O(n^3)
+     * space: O(n)
+     */
     public boolean wordBreak1(String s, List<String> wordDict) {
         boolean[] f = new boolean[s.length() + 1];
 
@@ -21,9 +26,13 @@ public class WordBreak {
         return f[s.length()];
     }
 
+    /**
+     *
+     * time: O(n^3)
+     * space: O(n)
+     */
     public boolean wordBreak2(String s, List<String> wordDict) {
         boolean[] f = new boolean[s.length() + 1];
-
         f[0] = true;
 
         for(int i = 1; i <= s.length(); i++){
