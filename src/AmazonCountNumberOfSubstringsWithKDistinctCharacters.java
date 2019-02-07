@@ -1,57 +1,71 @@
-import java.util.Arrays;
+/**
+ * time: O(n^2)
+ * space: O(n)
+ */
 
-public class AmazonCountNumberOfSubstringsWithKDistinctCharacters
-{
-    // Function to count number of substrings 
-    // with exactly k unique characters 
-    int countkDist(String str, int k)
-    {
-        // Initialize result 
-        int res = 0;
+import java.util.*;
 
-        int n = str.length();
-
-        // To store count of characters from 'a' to 'z' 
+public class AmazonCountNumberOfSubstringsWithKDistinctCharacters {
+    public static List<String> countkDist(String str, int k) {
+        List<String> res = new ArrayList<>();
+        if (k == 0) {
+            return res;
+        }
+        Set<String> temp = new HashSet<>();
+        int len = str.length();
         int cnt[] = new int[26];
-
-        // Consider all substrings beginning with 
-        // str[i] 
-        for (int i = 0; i < n; i++)
-        {
+        for (int i = 0; i <= len - k; i++) {
+            StringBuilder sb = new StringBuilder();
             int dist_count = 0;
-
-            // Initializing count array with 0 
             Arrays.fill(cnt, 0);
-
-            // Consider all substrings between str[i..j] 
-            for (int j=i; j<n; j++)
-            {
-                // If this is a new character for this 
-                // substring, increment dist_count. 
-                if (cnt[str.charAt(j) - 'a'] == 0)
+            for (int j = i; j < i + k; j++) {
+                if (cnt[str.charAt(j) - 'a'] == 0) {
                     dist_count++;
-
-                // Increment count of current character 
+                }
+                sb.append(str.charAt(j));
                 cnt[str.charAt(j) - 'a']++;
-
-                // If distinct character count becomes k, 
-                // then increment result. 
                 if (dist_count == k)
-                    res++;
+                    temp.add(sb.toString());
             }
         }
-
+        res.addAll(temp);
         return res;
     }
 
-    // Driver Program 
-    public static void main(String[] args)
-    {
-        AmazonCountNumberOfSubstringsWithKDistinctCharacters ob = new AmazonCountNumberOfSubstringsWithKDistinctCharacters();
-        String ch = "abcbaa";
-        int k = 3;
+    public static List<String> countkDistWithOneRepeat(String str, int k) {
+        List<String> res = new ArrayList<>();
+        if (k == 0) {
+            return res;
+        }
+        Set<String> temp = new HashSet<>();
+        int len = str.length();
+        int cnt[] = new int[26];
+        for (int i = 0; i <= len - k; i++) {
+            StringBuilder sb = new StringBuilder();
+            int dist_count = 0;
+            Arrays.fill(cnt, 0);
+            for (int j = i; j < i + k; j++) {
+                if (cnt[str.charAt(j) - 'a'] == 0) {
+                    dist_count++;
+                }
+                sb.append(str.charAt(j));
+                cnt[str.charAt(j) - 'a']++;
+                if (dist_count == k - 1 && sb.length() == k)
+                    temp.add(sb.toString());
+            }
+        }
+        res.addAll(temp);
+        return res;
+    }
+
+    public static void main(String[] args) {
+        String ch = "abcdkeewrf";
+        int k = 4;
         System.out.println("Total substrings with exactly " +
                 k +    " distinct characters : "
-                + ob.countkDist(ch, k));
+                + countkDist(ch, k));
+        System.out.println("Total substrings with exactly " +
+                k +    " one repeat character : "
+                + countkDistWithOneRepeat(ch, k));
     }
 }

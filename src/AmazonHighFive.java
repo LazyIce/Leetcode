@@ -1,5 +1,4 @@
-import java.util.Map;
-import java.util.HashMap;
+import java.util.*;
 
 class Result {
     int id;
@@ -14,6 +13,27 @@ class Result {
 public class AmazonHighFive {
     public static Map<Integer, Double> getHighFive(Result[] results) {
         Map<Integer, Double> res = new HashMap<>();
+        Map<Integer, PriorityQueue<Integer>> values = new HashMap<>();
+
+        for (Result result : results) {
+            int id = result.id;
+            PriorityQueue<Integer> pq = values.getOrDefault(id, new PriorityQueue<>(5));
+            pq.offer(result.value);
+            if (pq.size() > 5) {
+                pq.poll();
+            }
+            values.put(id, pq);
+        }
+
+        for (Map.Entry<Integer, PriorityQueue<Integer>> value : values.entrySet()) {
+            int id = value.getKey();
+            Queue<Integer> pq = value.getValue();
+            int sum = 0;
+            while (pq.size() != 0) {
+                sum += pq.poll();
+            }
+            res.put(id, sum / 5.0);
+        }
 
         return res;
     }
@@ -30,8 +50,10 @@ public class AmazonHighFive {
         Result r9 = new Result(2, 7);
         Result r10 = new Result(2, 6);
         Result r11 = new Result(2, 6);
-        Result[] arr = {r1, r2, r3, r4, r5, r6, r7, r8, r9, r10, r11};
+        Result r12 = new Result(2, 10);
+        Result[] arr = {r1, r2, r3, r4, r5, r6, r7, r8, r9, r10, r11, r12};
         Map<Integer, Double> res = getHighFive(arr);
-        System.out.println(res.get(1) + " " +res.get(2));
+        System.out.println(res.get(1));
+        System.out.println(res.get(2));
     }
 }
