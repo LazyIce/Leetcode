@@ -42,6 +42,7 @@ public class PalindromeLinkedList {
             prev = slow;
             slow = prev2;
         }
+
         if (fast != null) { // if it is odd,
             slow = slow.next;
         }
