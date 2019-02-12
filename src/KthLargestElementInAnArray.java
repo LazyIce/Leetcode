@@ -5,7 +5,7 @@
 import java.util.Random;
 
 public class KthLargestElementInAnArray {
-    public int findKthLargest(int[] nums, int k) {
+    public static int findKthLargest(int[] nums, int k) {
         //shuffle to gurantee O(N)
         shuffle(nums);
         //quickselect
@@ -14,7 +14,7 @@ public class KthLargestElementInAnArray {
 
     //two-way paritioning
     //large > pivot > small
-    private int partition(int[] nums, int k, int begin, int end){
+    private static int partition(int[] nums, int k, int begin, int end){
 
         int pivot = nums[begin];
         int left = begin, right = end;
@@ -36,7 +36,7 @@ public class KthLargestElementInAnArray {
         else return partition(nums, k, right + 1, end);
     }
 
-    private void shuffle(int[] nums){
+    private static void shuffle(int[] nums){
         Random ran = new Random();
         for(int i = 1; i < nums.length; i++){
             int j = ran.nextInt(i+1);
@@ -44,9 +44,15 @@ public class KthLargestElementInAnArray {
         }
     }
 
-    private void swap(int[] nums, int a, int b){
+    private static void swap(int[] nums, int a, int b){
         int tmp = nums[a];
         nums[a] = nums[b];
         nums[b] = tmp;
+    }
+
+    public static void main(String[] args) {
+        int[] arr = new int[] {1, 5, 2, 6, 8};
+        int res = findKthLargest(arr, 1);
+        System.out.println(res);
     }
 }
