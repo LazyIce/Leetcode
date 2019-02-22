@@ -2,25 +2,41 @@
  * time: O(n)
  * space: O(n)
  */
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Stack;
+import java.util.*;
 
 public class BinaryTreePreOrderTraversal {
-    public List<Integer> preorderTraversal(TreeNode root) {
-        List<Integer> list = new LinkedList<Integer>();
-        Stack<TreeNode> rights = new Stack<TreeNode>();
-        TreeNode node = root;
-        while(node != null) {
-            list.add(node.val);
-            if (node.right != null) {
-                rights.push(node.right);
-            }
-            node = node.left;
-            if (node == null && !rights.isEmpty()) {
-                node = rights.pop();
+    public List<Integer> preorderTraversal1(TreeNode root) {
+        List<Integer> res = new ArrayList<>();
+        if (root == null)
+            return res;
+        Deque<TreeNode> st = new LinkedList<>();
+        TreeNode cur = root;
+        while (cur != null || !st.isEmpty()) {
+            if (cur == null)
+                cur = st.pop();
+            while (cur != null) {
+                res.add(cur.val);
+                if (cur.right != null)
+                    st.push(cur.right);
+                cur = cur.left;
             }
         }
-        return list;
+        return res;
+    }
+
+    public List<Integer> preorderTraversal2(TreeNode root) {
+        List<Integer> res = new ArrayList<>();
+        if (root == null)
+            return res;
+        helper(root, res);
+        return res;
+    }
+
+    public void helper(TreeNode root, List<Integer> res) {
+        if (root == null)
+            return;
+        res.add(root.val);
+        helper(root.left, res);
+        helper(root.right, res);
     }
 }
