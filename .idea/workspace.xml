@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e7dcf93-9c4a-4ce1-9eb9-432467da165e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ConstructQuadTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ContainerWithMostWater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FractiontoRecurringDecimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RandomPickWithWeight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ReverseInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CutTheSticks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KdiffPairsInAnArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OrderCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProductOfMaxAndMin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProductOfMaximumandMinimumInADataset.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PsychometricTesting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CherryPickup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CherryPickup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/BinaryTreePreOrderTraversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/BinaryTreePreOrderTraversal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/MaximumDepthOfBinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/MaximumDepthOfBinaryTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/MinimumDepthOfBinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/MinimumDepthOfBinaryTree.class" afterDir="false" />
     </list>
     <ignored path="Leetcode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,16 +30,16 @@
     <session id="1356915088">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="66" />
+          <entry key="project.closed" value="68" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="4" />
           <entry key="project.open.time.12" value="4" />
           <entry key="project.open.time.13" value="9" />
           <entry key="project.open.time.14" value="8" />
-          <entry key="project.open.time.15" value="5" />
+          <entry key="project.open.time.15" value="6" />
           <entry key="project.open.time.16" value="7" />
           <entry key="project.open.time.17" value="6" />
-          <entry key="project.open.time.18" value="5" />
+          <entry key="project.open.time.18" value="6" />
           <entry key="project.open.time.19" value="4" />
           <entry key="project.open.time.2" value="5" />
           <entry key="project.open.time.20" value="2" />
@@ -46,30 +48,30 @@
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="68" />
+          <entry key="project.opened" value="70" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="2" />
-          <entry key="java" value="405" />
+          <entry key="java" value="412" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="405" />
+          <entry key="JAVA" value="412" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="java" value="23576" />
+          <entry key="java" value="27596" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="23576" />
+          <entry key="JAVA" value="27596" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -80,11 +82,62 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ThreeSumCloset.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CutTheSticks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="325">
+              <caret line="20" column="52" lean-forward="true" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/KdiffPairsInAnArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/OrderCheck.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="185">
+              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PsychometricTesting.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ProductOfMaxAndMin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="73">
+              <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ProductOfMaximumandMinimumInADataset.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="26">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -112,13 +165,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/TaskScheduler.java" />
-        <option value="$PROJECT_DIR$/src/SubarraySumEqualsK.java" />
-        <option value="$PROJECT_DIR$/src/TargetSum.java" />
-        <option value="$PROJECT_DIR$/src/MediumOfUnsortedArray.java" />
-        <option value="$PROJECT_DIR$/src/KthLargestElementInAnArray.java" />
-        <option value="$PROJECT_DIR$/src/CourseSchedule.java" />
-        <option value="$PROJECT_DIR$/src/CourseSchedule2.java" />
         <option value="$PROJECT_DIR$/src/FirstUniqueCharacterinaString.java" />
         <option value="$PROJECT_DIR$/src/BinarySearchTreeIterator.java" />
         <option value="$PROJECT_DIR$/src/MaximumSubarray.java" />
@@ -163,6 +209,13 @@
         <option value="$PROJECT_DIR$/src/FractiontoRecurringDecimal.java" />
         <option value="$PROJECT_DIR$/src/ReverseInteger.java" />
         <option value="$PROJECT_DIR$/src/ContainerWithMostWater.java" />
+        <option value="$PROJECT_DIR$/src/ThreeSumSmaller.java" />
+        <option value="$PROJECT_DIR$/src/CutTheSticks.java" />
+        <option value="$PROJECT_DIR$/src/ProductOfMaximumandMinimumInADataset.java" />
+        <option value="$PROJECT_DIR$/src/PsychometricTesting.java" />
+        <option value="$PROJECT_DIR$/src/KdiffPairsInAnArray.java" />
+        <option value="$PROJECT_DIR$/src/ProductOfMaxAndMin.java" />
+        <option value="$PROJECT_DIR$/src/OrderCheck.java" />
       </list>
     </option>
   </component>
@@ -172,7 +225,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1280" />
     <option name="height" value="800" />
   </component>
@@ -208,7 +261,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/xiebin/Desktop/Leetcode/src/IntersectionOfTwoLinkedList.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551294307212" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551758100408" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../HW3-bxie41/Q1" />
     <property name="project.structure.last.edited" value="Project" />
@@ -228,7 +281,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ConnectedComponents">
+  <component name="RunManager" selected="Application.OrderCheck">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -339,32 +392,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CourseSchedule2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CourseSchedule2" />
+    <configuration name="CutTheSticks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CutTheSticks" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindAllAnagramsInAString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FindAllAnagramsInAString" />
+    <configuration name="OrderCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OrderCheck" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KthLargestElementInAnArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KthLargestElementInAnArray" />
+    <configuration name="ProductOfMaxAndMin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProductOfMaxAndMin" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MediumOfUnsortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MediumOfUnsortedArray" />
+    <configuration name="PsychometricTesting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PsychometricTesting" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -480,19 +533,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.FindAllAnagramsInAString" />
-      <item itemvalue="Application.MediumOfUnsortedArray" />
-      <item itemvalue="Application.KthLargestElementInAnArray" />
-      <item itemvalue="Application.CourseSchedule2" />
       <item itemvalue="Application.ConnectedComponents" />
+      <item itemvalue="Application.CutTheSticks" />
+      <item itemvalue="Application.PsychometricTesting" />
+      <item itemvalue="Application.ProductOfMaxAndMin" />
+      <item itemvalue="Application.OrderCheck" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OrderCheck" />
+        <item itemvalue="Application.ProductOfMaxAndMin" />
+        <item itemvalue="Application.PsychometricTesting" />
+        <item itemvalue="Application.CutTheSticks" />
         <item itemvalue="Application.ConnectedComponents" />
-        <item itemvalue="Application.CourseSchedule2" />
-        <item itemvalue="Application.KthLargestElementInAnArray" />
-        <item itemvalue="Application.MediumOfUnsortedArray" />
-        <item itemvalue="Application.FindAllAnagramsInAString" />
       </list>
     </recent_temporary>
   </component>
@@ -581,12 +634,14 @@
       <workItem from="1551069276321" duration="476000" />
       <workItem from="1551069971597" duration="513000" />
       <workItem from="1551070672516" duration="143000" />
-      <workItem from="1551237754402" duration="6093000" />
+      <workItem from="1551237754402" duration="6480000" />
+      <workItem from="1551295994059" duration="9000" />
+      <workItem from="1551726728734" duration="10863000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="207438000" />
+    <option name="totallyTimeSpent" value="218697000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -598,10 +653,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23778501" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.247557" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -610,12 +665,12 @@
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.20674486" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20674486" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.398827" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4967742" weight="0.32844576" />
-      <window_info anchor="bottom" x="26" y="333" width="1228" height="133" id="Terminal" order="7" sideWeight="0.4903226" visible="true" weight="0.17008798" />
+      <window_info anchor="bottom" x="26" y="333" width="1228" height="133" id="Terminal" order="7" sideWeight="0.4903226" weight="0.17008798" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5096774" side_tool="true" weight="0.32954547" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4967742" weight="0.32844576" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
@@ -694,55 +749,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/MaximumSubarray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AlienDictionary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BestTimeToBuyAndSellStock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PartitionList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/WordLadder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-378">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/WordLadder2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1092">
-          <caret line="48" column="31" lean-forward="true" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RotateList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-38">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LetterCombinationsOfAPhoneNumber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
@@ -1058,6 +1064,61 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="78">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ThreeSumSmaller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProductOfMaximumandMinimumInADataset.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CutTheSticks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="20" column="52" lean-forward="true" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/KdiffPairsInAnArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProductOfMaxAndMin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PsychometricTesting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OrderCheck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
         </state>
       </provider>
     </entry>
