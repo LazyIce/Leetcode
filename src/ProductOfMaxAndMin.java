@@ -1,5 +1,4 @@
 import java.util.TreeSet;
-
 public class ProductOfMaxAndMin {
     public static long[] minMax(String[] operations, int[] values) {
         long[] products = new long[operations.length];
