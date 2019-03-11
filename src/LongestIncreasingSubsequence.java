@@ -1,9 +1,11 @@
-/**
- * time: O(n^2)
- * space: O(n)
- */
+import java.util.Arrays;
+
 public class LongestIncreasingSubsequence {
-    public int lengthOfLIS(int[] nums) {
+    /**
+     * time: O(n^2)
+     * space: O(n)
+     */
+    public static int lengthOfLIS(int[] nums) {
         if (nums == null || nums.length < 1) return 0;
         int[] dp = new int[nums.length + 1];
         for (int i = 1; i <= nums.length; i++) {
@@ -21,5 +23,30 @@ public class LongestIncreasingSubsequence {
             len = Math.max(len, dp[i]);
         }
         return len;
+    }
+
+    /**
+     * time: O(nlogn)
+     * space: O(n)
+     */
+    public static int lengthOfLIS2(int[] nums) {
+        int[] dp = new int[nums.length];
+        int len = 0;
+
+        for(int x : nums) {
+            int i = Arrays.binarySearch(dp, 0, len, x);
+            if(i < 0)
+                i = -(i + 1);
+            dp[i] = x;
+            if(i == len)
+                len++;
+        }
+
+        return len;
+    }
+
+    public static void main(String[] args) {
+        int[] arr = new int[]{4, 5, 6, 3};
+        int res = lengthOfLIS2(arr);
     }
 }
