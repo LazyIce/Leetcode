@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e7dcf93-9c4a-4ce1-9eb9-432467da165e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ContainsDuplicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StrobogrammaticNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MinimumSizeSubarraySum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="Leetcode.iws" />
@@ -23,17 +22,18 @@
     <session id="1356915088">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="76" />
+          <entry key="project.closed" value="80" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="4" />
           <entry key="project.open.time.12" value="4" />
-          <entry key="project.open.time.13" value="10" />
+          <entry key="project.open.time.13" value="11" />
           <entry key="project.open.time.14" value="8" />
           <entry key="project.open.time.15" value="7" />
-          <entry key="project.open.time.16" value="9" />
-          <entry key="project.open.time.17" value="6" />
+          <entry key="project.open.time.16" value="10" />
+          <entry key="project.open.time.17" value="7" />
           <entry key="project.open.time.18" value="6" />
-          <entry key="project.open.time.19" value="5" />
+          <entry key="project.open.time.19" value="6" />
           <entry key="project.open.time.2" value="6" />
           <entry key="project.open.time.20" value="2" />
           <entry key="project.open.time.21" value="4" />
@@ -41,30 +41,30 @@
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="77" />
+          <entry key="project.opened" value="82" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="2" />
-          <entry key="java" value="431" />
+          <entry key="java" value="434" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="431" />
+          <entry key="JAVA" value="434" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="java" value="28200" />
+          <entry key="java" value="28207" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="28200" />
+          <entry key="JAVA" value="28207" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -74,7 +74,17 @@
     <favorites_list name="Leetcode" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/MinimumSizeSubarraySum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -97,8 +107,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/TwoSum4.java" />
-        <option value="$PROJECT_DIR$/src/BinaryTreeVerticalOrderTraversal.java" />
         <option value="$PROJECT_DIR$/src/BinaryTreePreOrderTraversal.java" />
         <option value="$PROJECT_DIR$/src/InorderSuccessorInBST.java" />
         <option value="$PROJECT_DIR$/src/InorderPredecessorInBST.java" />
@@ -148,6 +156,8 @@
         <option value="$PROJECT_DIR$/src/ImplementTriePrefixTree.java" />
         <option value="$PROJECT_DIR$/src/StrobogrammaticNumber.java" />
         <option value="$PROJECT_DIR$/src/ContainsDuplicate.java" />
+        <option value="$PROJECT_DIR$/src/ImplementStackUsingQueues.java" />
+        <option value="$PROJECT_DIR$/src/MinimumSizeSubarraySum.java" />
       </list>
     </option>
   </component>
@@ -169,7 +179,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -187,13 +196,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/xiebin/Desktop/Leetcode/src/IntersectionOfTwoLinkedList.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556594855088" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557286422433" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../HW3-bxie41/Q1" />
     <property name="project.structure.last.edited" value="Project" />
@@ -576,11 +586,16 @@
       <workItem from="1555277626973" duration="8000" />
       <workItem from="1556073840905" duration="1305000" />
       <workItem from="1556593128072" duration="1251000" />
+      <workItem from="1556681502622" duration="236000" />
+      <workItem from="1556849089271" duration="355000" />
+      <workItem from="1557205468977" duration="16000" />
+      <workItem from="1557206401294" duration="6000" />
+      <workItem from="1557285778487" duration="320000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="228953000" />
+    <option name="totallyTimeSpent" value="229886000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -593,8 +608,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.247557" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27198696" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -608,7 +624,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4967742" weight="0.32844576" />
-      <window_info active="true" anchor="bottom" x="26" y="333" width="1228" height="133" id="Terminal" order="7" sideWeight="0.4903226" visible="true" weight="0.26246333" />
+      <window_info anchor="bottom" x="26" y="333" width="1228" height="133" id="Terminal" order="7" sideWeight="0.4903226" visible="true" weight="0.26099706" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5096774" side_tool="true" weight="0.32954547" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4967742" weight="0.32844576" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
@@ -711,27 +727,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/LinkedListCycle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ThreeSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-126">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CopyListWithRandomPointer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-228">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BinaryTreePostOrderTraversal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="267">
@@ -1058,10 +1053,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-199">
           <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#204#225#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1069,9 +1060,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
           <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-          <folding>
-            <element signature="e#134#152#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ContainsDuplicate2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ImplementStackUsingQueues.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-175">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MinimumSizeSubarraySum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
         </state>
       </provider>
     </entry>
