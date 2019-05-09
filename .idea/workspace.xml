@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e7dcf93-9c4a-4ce1-9eb9-432467da165e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/MinimumSizeSubarraySum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CombinationSum3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HorseRobber2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="Leetcode.iws" />
@@ -22,13 +23,13 @@
     <session id="1356915088">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="80" />
+          <entry key="project.closed" value="81" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="4" />
           <entry key="project.open.time.12" value="4" />
           <entry key="project.open.time.13" value="11" />
-          <entry key="project.open.time.14" value="8" />
+          <entry key="project.open.time.14" value="9" />
           <entry key="project.open.time.15" value="7" />
           <entry key="project.open.time.16" value="10" />
           <entry key="project.open.time.17" value="7" />
@@ -41,30 +42,30 @@
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="82" />
+          <entry key="project.opened" value="83" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="2" />
-          <entry key="java" value="434" />
+          <entry key="java" value="437" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="434" />
+          <entry key="JAVA" value="437" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="java" value="28207" />
+          <entry key="java" value="28210" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="28207" />
+          <entry key="JAVA" value="28210" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -76,10 +77,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/MinimumSizeSubarraySum.java">
+        <entry file="file://$PROJECT_DIR$/src/HorseRobber2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="26">
+              <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -107,9 +108,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/BinaryTreePreOrderTraversal.java" />
-        <option value="$PROJECT_DIR$/src/InorderSuccessorInBST.java" />
-        <option value="$PROJECT_DIR$/src/InorderPredecessorInBST.java" />
         <option value="$PROJECT_DIR$/src/GraphValidTree.java" />
         <option value="$PROJECT_DIR$/src/MeetingRoomes.java" />
         <option value="$PROJECT_DIR$/src/AlienDictionary.java" />
@@ -158,6 +156,9 @@
         <option value="$PROJECT_DIR$/src/ContainsDuplicate.java" />
         <option value="$PROJECT_DIR$/src/ImplementStackUsingQueues.java" />
         <option value="$PROJECT_DIR$/src/MinimumSizeSubarraySum.java" />
+        <option value="$PROJECT_DIR$/src/AddAndSearchWorld.java" />
+        <option value="$PROJECT_DIR$/src/HorseRobber2.java" />
+        <option value="$PROJECT_DIR$/src/CombinationSum3.java" />
       </list>
     </option>
   </component>
@@ -179,6 +180,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -196,14 +198,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/xiebin/Desktop/Leetcode/src/IntersectionOfTwoLinkedList.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557286422433" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557373030687" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../HW3-bxie41/Q1" />
     <property name="project.structure.last.edited" value="Project" />
@@ -590,12 +591,13 @@
       <workItem from="1556849089271" duration="355000" />
       <workItem from="1557205468977" duration="16000" />
       <workItem from="1557206401294" duration="6000" />
-      <workItem from="1557285778487" duration="320000" />
+      <workItem from="1557285778487" duration="481000" />
+      <workItem from="1557372803640" duration="234000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="229886000" />
+    <option name="totallyTimeSpent" value="230281000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -610,7 +612,7 @@
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27198696" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2776873" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -727,27 +729,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/BinaryTreePostOrderTraversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="17" column="52" lean-forward="true" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ReverseLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-345">
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BinaryTreePreOrderTraversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BinaryTreeInorderTraversal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
@@ -1077,10 +1058,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/AddAndSearchWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/MinimumSizeSubarraySum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HorseRobber2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CombinationSum3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
         </state>
       </provider>
     </entry>
