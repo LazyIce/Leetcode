@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e7dcf93-9c4a-4ce1-9eb9-432467da165e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ContainsDuplicate3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MaximalSquare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ShortestWordDistance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ShortestWordDistance2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ShortestWordDistance3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="Leetcode.iws" />
@@ -48,24 +49,24 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="2" />
-          <entry key="java" value="439" />
+          <entry key="java" value="443" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="439" />
+          <entry key="JAVA" value="443" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="java" value="28212" />
+          <entry key="java" value="28218" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="28212" />
+          <entry key="JAVA" value="28218" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -76,11 +77,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/MaximalSquare.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ShortestWordDistance3.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="26">
-              <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ShortestWordDistance.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="446">
+              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -108,9 +118,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/AlienDictionary.java" />
-        <option value="$PROJECT_DIR$/src/MeetingRooms2.java" />
-        <option value="$PROJECT_DIR$/src/LetterCombinationsOfAPhoneNumber.java" />
         <option value="$PROJECT_DIR$/src/JumpGame2.java" />
         <option value="$PROJECT_DIR$/src/FindMediumFromDataStream.java" />
         <option value="$PROJECT_DIR$/src/SerializeandDeserializeBST.java" />
@@ -159,6 +166,9 @@
         <option value="$PROJECT_DIR$/src/CombinationSum3.java" />
         <option value="$PROJECT_DIR$/src/ContainsDuplicate3.java" />
         <option value="$PROJECT_DIR$/src/MaximalSquare.java" />
+        <option value="$PROJECT_DIR$/src/ShortestWordDistance.java" />
+        <option value="$PROJECT_DIR$/src/ShortestWordDistance2.java" />
+        <option value="$PROJECT_DIR$/src/ShortestWordDistance3.java" />
       </list>
     </option>
   </component>
@@ -204,7 +214,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/xiebin/Desktop/Leetcode/src/IntersectionOfTwoLinkedList.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557459517152" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557632544496" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../HW3-bxie41/Q1" />
     <property name="project.structure.last.edited" value="Project" />
@@ -592,12 +602,12 @@
       <workItem from="1557205468977" duration="16000" />
       <workItem from="1557206401294" duration="6000" />
       <workItem from="1557285778487" duration="481000" />
-      <workItem from="1557372803640" duration="642000" />
+      <workItem from="1557372803640" duration="1561000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="230689000" />
+    <option name="totallyTimeSpent" value="231608000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -612,7 +622,7 @@
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2776873" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2776873" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -626,7 +636,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4967742" weight="0.32844576" />
-      <window_info active="true" anchor="bottom" x="26" y="333" width="1228" height="133" id="Terminal" order="7" sideWeight="0.4903226" visible="true" weight="0.26099706" />
+      <window_info anchor="bottom" x="26" y="333" width="1228" height="133" id="Terminal" order="7" sideWeight="0.4903226" visible="true" weight="0.26099706" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5096774" side_tool="true" weight="0.32954547" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4967742" weight="0.32844576" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
@@ -729,27 +739,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/RomanToInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="676">
-          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IntegerToRoman.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LowestCommonAncestorofaBinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LowestCommonAncestorofaBinarySearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -1088,8 +1077,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MaximalSquare.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ShortestWordDistance2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ShortestWordDistance3.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ShortestWordDistance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
         </state>
       </provider>
     </entry>
