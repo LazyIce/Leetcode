@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e7dcf93-9c4a-4ce1-9eb9-432467da165e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CountCompleteTreeNodes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RectangleArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DeleteNodeInALinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PowerOfTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ValidAnagram.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="Leetcode.iws" />
@@ -48,24 +49,24 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="2" />
-          <entry key="java" value="445" />
+          <entry key="java" value="449" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="445" />
+          <entry key="JAVA" value="449" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="java" value="28291" />
+          <entry key="java" value="28350" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="28291" />
+          <entry key="JAVA" value="28350" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -77,10 +78,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/RectangleArea.java">
+        <entry file="file://$PROJECT_DIR$/src/PowerOfTwo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="24" column="5" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="24" selection-end-column="5" />
+            <state relative-caret-position="26">
+              <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -108,9 +109,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/SerializeandDeserializeBST.java" />
-        <option value="$PROJECT_DIR$/src/SwapNodesInPairs.java" />
-        <option value="$PROJECT_DIR$/src/StringToInteger.java" />
         <option value="$PROJECT_DIR$/src/RomanToInteger.java" />
         <option value="$PROJECT_DIR$/src/IntegerToRoman.java" />
         <option value="$PROJECT_DIR$/src/LowestCommonAncestorofaBinarySearchTree.java" />
@@ -159,6 +157,9 @@
         <option value="$PROJECT_DIR$/src/ShortestWordDistance3.java" />
         <option value="$PROJECT_DIR$/src/CountCompleteTreeNodes.java" />
         <option value="$PROJECT_DIR$/src/RectangleArea.java" />
+        <option value="$PROJECT_DIR$/src/ValidAnagram.java" />
+        <option value="$PROJECT_DIR$/src/DeleteNodeInALinkedList.java" />
+        <option value="$PROJECT_DIR$/src/PowerOfTwo.java" />
       </list>
     </option>
   </component>
@@ -204,7 +205,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/xiebin/Desktop/Leetcode/src/IntersectionOfTwoLinkedList.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557718618570" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557892574025" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../HW3-bxie41/Q1" />
     <property name="project.structure.last.edited" value="Project" />
@@ -592,12 +593,12 @@
       <workItem from="1557205468977" duration="16000" />
       <workItem from="1557206401294" duration="6000" />
       <workItem from="1557285778487" duration="481000" />
-      <workItem from="1557372803640" duration="3534000" />
+      <workItem from="1557372803640" duration="4761000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="233581000" />
+    <option name="totallyTimeSpent" value="234808000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -729,34 +730,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/MaximumDepthofBinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CountCompleteTreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FindMinimuminRotatedSortedArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MedianOfTwoSortedArrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-178">
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ExclusiveTimeofFunctions.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -1094,8 +1067,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/RectangleArea.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="24" column="5" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="24" selection-end-column="5" />
+        <state relative-caret-position="226">
+          <caret line="32" column="47" lean-forward="true" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InvertBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="20" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="13" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ValidAnagram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DeleteNodeInALinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PowerOfTwo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
         </state>
       </provider>
     </entry>
