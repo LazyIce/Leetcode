@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e7dcf93-9c4a-4ce1-9eb9-432467da165e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/AddDigits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinaryTreePaths.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ImplementQueueUsingStacks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PaintFence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PaintHouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FlipGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NimGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UglyNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WordPattern.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PowerOfTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PowerOfTwo.java" afterDir="false" />
     </list>
     <ignored path="Leetcode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,24 +50,24 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="2" />
-          <entry key="java" value="457" />
+          <entry key="java" value="461" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="457" />
+          <entry key="JAVA" value="461" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="java" value="28498" />
+          <entry key="java" value="28502" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="28498" />
+          <entry key="JAVA" value="28502" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -81,7 +79,7 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/PaintFence.java">
+        <entry file="file://$PROJECT_DIR$/src/WordPattern.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="26">
               <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
@@ -112,10 +110,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/CountCompleteTreeNode.java" />
-        <option value="$PROJECT_DIR$/src/ExclusiveTimeofFunctions.java" />
-        <option value="$PROJECT_DIR$/src/CherryPickup.java" />
-        <option value="$PROJECT_DIR$/src/ConstructQuadTree.java" />
         <option value="$PROJECT_DIR$/src/Node.java" />
         <option value="$PROJECT_DIR$/src/RandomPickWithWeight.java" />
         <option value="$PROJECT_DIR$/src/FractiontoRecurringDecimal.java" />
@@ -163,6 +157,10 @@
         <option value="$PROJECT_DIR$/src/PaintHouse.java" />
         <option value="$PROJECT_DIR$/src/AddDigits.java" />
         <option value="$PROJECT_DIR$/src/PaintFence.java" />
+        <option value="$PROJECT_DIR$/src/UglyNumber.java" />
+        <option value="$PROJECT_DIR$/src/NimGame.java" />
+        <option value="$PROJECT_DIR$/src/FlipGame.java" />
+        <option value="$PROJECT_DIR$/src/WordPattern.java" />
       </list>
     </option>
   </component>
@@ -208,7 +206,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/xiebin/Desktop/Leetcode/src/IntersectionOfTwoLinkedList.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557978118221" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558064736337" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../HW3-bxie41/Q1" />
     <property name="project.structure.last.edited" value="Project" />
@@ -596,12 +594,12 @@
       <workItem from="1557205468977" duration="16000" />
       <workItem from="1557206401294" duration="6000" />
       <workItem from="1557285778487" duration="481000" />
-      <workItem from="1557372803640" duration="7447000" />
+      <workItem from="1557372803640" duration="8209000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="237494000" />
+    <option name="totallyTimeSpent" value="238256000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -616,7 +614,7 @@
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2776873" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2776873" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -630,7 +628,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4967742" weight="0.32844576" />
-      <window_info anchor="bottom" x="26" y="333" width="1228" height="133" id="Terminal" order="7" sideWeight="0.4903226" visible="true" weight="0.26099706" />
+      <window_info active="true" anchor="bottom" x="26" y="333" width="1228" height="133" id="Terminal" order="7" sideWeight="0.4903226" visible="true" weight="0.26099706" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5096774" side_tool="true" weight="0.32954547" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4967742" weight="0.32844576" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
@@ -733,34 +731,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ReverseInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ContainerWithMostWater.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RegualrExpressionMatching.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-281">
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ThreeSumCloset.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ThreeSumSmaller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
@@ -1120,6 +1090,42 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PaintFence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UglyNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NimGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+          <folding>
+            <element signature="e#59#60#0" expanded="true" />
+            <element signature="e#92#93#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FlipGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#127#135#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WordPattern.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
           <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
