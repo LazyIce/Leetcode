@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e7dcf93-9c4a-4ce1-9eb9-432467da165e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/FlipGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NimGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UglyNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WordPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Flatten2DVector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WordPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WordPattern.java" afterDir="false" />
     </list>
     <ignored path="Leetcode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,24 +48,24 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="2" />
-          <entry key="java" value="461" />
+          <entry key="java" value="467" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="461" />
+          <entry key="JAVA" value="467" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="java" value="28502" />
+          <entry key="java" value="28742" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="28502" />
+          <entry key="JAVA" value="28742" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -79,7 +77,7 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/WordPattern.java">
+        <entry file="file://$PROJECT_DIR$/src/Flatten2DVector.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="26">
               <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
@@ -110,7 +108,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Node.java" />
         <option value="$PROJECT_DIR$/src/RandomPickWithWeight.java" />
         <option value="$PROJECT_DIR$/src/FractiontoRecurringDecimal.java" />
         <option value="$PROJECT_DIR$/src/ReverseInteger.java" />
@@ -161,6 +158,7 @@
         <option value="$PROJECT_DIR$/src/NimGame.java" />
         <option value="$PROJECT_DIR$/src/FlipGame.java" />
         <option value="$PROJECT_DIR$/src/WordPattern.java" />
+        <option value="$PROJECT_DIR$/src/Flatten2DVector.java" />
       </list>
     </option>
   </component>
@@ -206,7 +204,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/xiebin/Desktop/Leetcode/src/IntersectionOfTwoLinkedList.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558064736337" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558066740779" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../HW3-bxie41/Q1" />
     <property name="project.structure.last.edited" value="Project" />
@@ -226,7 +224,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LongestCommonPrefix">
+  <component name="RunManager" selected="Application.WordPattern">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -361,8 +359,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PsychometricTesting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PsychometricTesting" />
+    <configuration name="WordPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WordPattern" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -478,19 +476,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.PsychometricTesting" />
       <item itemvalue="Application.ProductOfMaxAndMin" />
       <item itemvalue="Application.OrderCheck" />
       <item itemvalue="Application.LongestIncreasingSubsequence" />
       <item itemvalue="Application.LongestCommonPrefix" />
+      <item itemvalue="Application.WordPattern" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WordPattern" />
         <item itemvalue="Application.LongestCommonPrefix" />
         <item itemvalue="Application.LongestIncreasingSubsequence" />
         <item itemvalue="Application.OrderCheck" />
         <item itemvalue="Application.ProductOfMaxAndMin" />
-        <item itemvalue="Application.PsychometricTesting" />
       </list>
     </recent_temporary>
   </component>
@@ -594,12 +592,12 @@
       <workItem from="1557205468977" duration="16000" />
       <workItem from="1557206401294" duration="6000" />
       <workItem from="1557285778487" duration="481000" />
-      <workItem from="1557372803640" duration="8209000" />
+      <workItem from="1557372803640" duration="9883000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="238256000" />
+    <option name="totallyTimeSpent" value="239930000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -614,7 +612,7 @@
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2776873" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2776873" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -628,7 +626,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4967742" weight="0.32844576" />
-      <window_info active="true" anchor="bottom" x="26" y="333" width="1228" height="133" id="Terminal" order="7" sideWeight="0.4903226" visible="true" weight="0.26099706" />
+      <window_info anchor="bottom" x="26" y="333" width="1228" height="133" id="Terminal" order="7" sideWeight="0.4903226" visible="true" weight="0.26099706" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5096774" side_tool="true" weight="0.32954547" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4967742" weight="0.32844576" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
@@ -721,30 +719,10 @@
           <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/LongestCommonPrefix.java</url>
-          <line>20</line>
-          <properties />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ThreeSumSmaller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CutTheSticks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="20" column="52" lean-forward="true" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/KdiffPairsInAnArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
@@ -826,13 +804,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LongestCommonPrefix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -1125,7 +1096,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/LongestCommonPrefix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="656" selection-start-line="656" selection-end-line="656" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/WordPattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Flatten2DVector.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
           <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
