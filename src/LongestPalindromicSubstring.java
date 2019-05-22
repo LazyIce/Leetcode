@@ -1,8 +1,8 @@
-/**
- * time: O(n^2)
- * space: O(n^2)
- */
 public class LongestPalindromicSubstring {
+    /**
+     * time: O(N^2)
+     * space: O(N^2)
+     */
     public String longestPalindrome(String s) {
         if(s.length() == 1)
             return s;

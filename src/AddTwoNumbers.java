@@ -1,8 +1,12 @@
 public class AddTwoNumbers {
+    /**
+     * time: O(N)
+     * space: O(N)
+     */
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         int carry = 0;
-        ListNode IResult = new ListNode(0);
-        ListNode IPointer = IResult;
+        ListNode result = new ListNode(0);
+        ListNode pointer = result;
         while (l1 != null || l2 != null) {
             int n1 = 0, n2 = 0;
             if (l1 != null) {
@@ -16,12 +20,12 @@ public class AddTwoNumbers {
             int temp = n1 + n2 + carry;
             carry = temp / 10;
             temp = temp % 10;
-            IPointer.next = new ListNode(temp);
-            IPointer = IPointer.next;
+            pointer.next = new ListNode(temp);
+            pointer = pointer.next;
         }
         if (carry > 0) {
-            IPointer.next = new ListNode(carry);
+            pointer.next = new ListNode(carry);
         }
-        return IResult.next;
+        return result.next;
     }
 }

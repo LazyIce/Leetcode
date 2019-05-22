@@ -12,13 +12,13 @@ Since there is ***exactly*** one solution, we don't need to worry about the dupl
 
 ### 1. One Pass Hashmap
 
-For two sum, we can use hashmap to record the index and number. Then we can solve this problem in one pass.
+For two sum, We can keep a hashmap which stores the numbers in array as keys and their positions as values. Then we can solve this problem in one pass.
 
 ```java
 /**
-* time complexity: O(N)
-* sapce complexity: O(N)
-*/
+ * time complexity: O(N)
+ * sapce complexity: O(N)
+ */
 public int[] twoSum(int[] nums, int target) {
 	int[] res = new int[]{-1, -1};
 	if (nums == null || nums.length < 2) {

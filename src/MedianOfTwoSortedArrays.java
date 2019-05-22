@@ -1,4 +1,8 @@
 public class MedianOfTwoSortedArrays {
+    /**
+     * time: O(log(min(m, n)))
+     * space: O(1)
+     */
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int m = nums1.length, n = nums2.length;
         int l = (m + n + 1) >> 1;
