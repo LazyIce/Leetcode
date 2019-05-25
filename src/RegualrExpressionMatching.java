@@ -1,31 +1,39 @@
 public class RegualrExpressionMatching {
+    /**
+     * time: O(M*N)
+     * space: O(M*N)
+     */
     public boolean isMatch(String s, String p) {
-        if (s == null && p == null) {
+        if (s == null && p == null)
             return true;
-        }
-        int len1 = s.length(), len2 = p.length();
-        boolean[][] dp = new boolean[len1 + 1][len2 + 1];
+        
+        boolean[][] dp = new boolean[s.length()+1][p.length()+1];   // consider empty string, so length+1.
         dp[0][0] = true;
-        for (int i = 2; i <= len2; i++) {
-            if (p.charAt(i - 1) == '*') {
-                dp[0][i] = dp[0][i - 2];
+        
+        for (int i = 0; i < p.length(); i++) {
+            if (p.charAt(i) == '*' && dp[0][i - 1]) {
+                dp[0][i + 1] = true;
             }
         }
-        for (int i = 1; i <= len1; i ++) {
-            for (int j = 1; j <= len2; j++) {
-                char charP = p.charAt(j - 1);
-                char charS = s.charAt(i - 1);
-                if (charP == '.' || charP == charS) {
-                    dp[i][j] = dp[i - 1][j - 1];
-                } else if (charP == '*') {
-                    if (p.charAt(j - 2) == '.' || p.charAt(j - 2) == charS) {//".*"
-                        dp[i][j] = dp[i - 1][j] || dp[i][j - 1] || dp[i][j - 2];//＊匹配之前的 ".", 或者不用，或者dp[i][j - 2]
+        
+        for (int i = 0; i < s.length(); i++) {
+            for (int j = 0; j < p.length(); j++) {
+                if (p.charAt(j) == s.charAt(i)) {
+                    dp[i + 1][j + 1] = dp[i][j];
+                }
+                if (p.charAt(j) == '.') {
+                    dp[i + 1][j + 1] = dp[i][j];
+                }
+                if (p.charAt(j) == '*') {
+                    if (p.charAt(j - 1) != s.charAt(i) && p.charAt(j - 1) != '.') {
+                        dp[i + 1][j + 1] = dp[i + 1][j - 1];
                     } else {
-                        dp[i][j] = dp[i][j - 2];
+                        dp[i + 1][j + 1] = (dp[i + 1][j] || dp[i][j + 1] || dp[i + 1][j - 1]);
                     }
                 }
             }
         }
-        return dp[len1][len2];
+        
+        return dp[s.length()][p.length()];
     }
 }

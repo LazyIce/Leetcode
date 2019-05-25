@@ -1,4 +1,8 @@
 public class ReverseInteger {
+    /**
+     * time: O(logx)
+     * space: O(1)
+     */
     public int reverse(int x) {
         long res = 0;
         while (x != 0) {

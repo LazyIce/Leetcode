@@ -1,4 +1,8 @@
 public class RomanToInteger {
+    /**
+     * time: O(N)
+     * space: O(1)
+     */
     public static int romanToInt(String s) {
         if (s == null || s.length() == 0) return 0;
         int res = toNumber(s.charAt(0));

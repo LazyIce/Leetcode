@@ -1,4 +1,8 @@
 public class ContainerWithMostWater {
+    /**
+     * time: O(N)
+     * space: O(1)
+     */
     public int maxArea(int[] height) {
         int res = 0;
         if (height == null || height.length <= 1)

@@ -1,31 +1,39 @@
 public class StringToInteger {
+    /**
+     * time: O(N)
+     * space: O(1)
+     */
     public int myAtoi(String str) {
-        double res = 0;
-        boolean negative = false;
-        String newStr = str.trim();
-        if (newStr.length() == 0)
-            return (int)res;
-        if (newStr.charAt(0) != '-' && newStr.charAt(0) != '+' && !Character.isDigit(newStr.charAt(0)))
-            return (int)res;
-        if (newStr.charAt(0) == '-')
-            negative = true;
-        if (Character.isDigit(newStr.charAt(0)))
-            res += newStr.charAt(0) - '0';
-        for (int i = 1; i < newStr.length(); i++) {
-            if (!Character.isDigit(newStr.charAt(i)))
-                break;
+        str = str.trim();
+        
+        if (str == null || str.length() == 0)
+            return 0;
+    
+        long res = 0;
+        int sign = 1;
+        int start = 0;
+        
+        char firstChar = str.charAt(0);
+        if (firstChar == '+')
+            start++;
+        else if (firstChar == '-') {
+            sign = -1;
+            start++;
+        }
+        
+        for (int i = start; i < str.length(); i++) {
+            char ch = str.charAt(i);
+            if (!Character.isDigit(ch))
+                return (int) res * sign;
             else {
-                res = res * 10 + (newStr.charAt(i) - '0');
+                res = res * 10 + ch - '0';
+                if (sign == 1 && res > Integer.MAX_VALUE)
+                    return Integer.MAX_VALUE;
+                if (sign == -1 && res - 1 > Integer.MAX_VALUE)
+                    return Integer.MIN_VALUE;
             }
         }
-        if (negative) {
-            res = res * (-1);
-        }
-        if (res > Integer.MAX_VALUE)
-            return Integer.MAX_VALUE;
-        else if (res < Integer.MIN_VALUE)
-            return Integer.MIN_VALUE;
-        else
-            return (int)res;
+        
+        return (int) res * sign;
     }
 }

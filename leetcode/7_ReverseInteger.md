@@ -8,9 +8,11 @@ Given a 32-bit signed integer, reverse digits of an integer.
 
 Here, think about corner case: out of bound. So we need use a long type to keep result.
 
+Note: In Java, for a mod b, the result is ```(sign of a)*|a|%|b|```
+
 ```java
 /**
- * time complexity: O(logN)
+ * time complexity: O(logx)
  * sapce complexity: O(1)
  */
 public int reverse(int x) {

@@ -1,13 +1,17 @@
 public class PalindromeNumber {
+    /**
+     * time: O(logx)
+     * space: O(1)
+     */
     public boolean isPalindrome(int x) {
-        if (x < 0)
+        if (x < 0 || x != 0 && x % 10 == 0)
             return false;
-        String s = String.valueOf(x);
-        for (int i = 0, j = s.length() - 1; i < j; i++, j--) {
-            if (s.charAt(i) != s.charAt(j)) {
-                return false;
-            }
+        int num = x;
+        int reverse = 0;
+        while (x != 0) {
+            reverse = reverse * 10 + x % 10;
+            x /= 10;
         }
-        return true;
+        return reverse == num;
     }
 }
