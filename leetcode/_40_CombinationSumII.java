@@ -2,7 +2,7 @@ import java.util.List;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class _40_CombinationSum2 {
+public class _40_CombinationSumII {
     /**
      * time: O(2^n)
      * space: O(n) or O(n^2)
