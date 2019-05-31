@@ -1,5 +1,6 @@
 public class _4_MedianofTwoSortedArrays {
     /**
+     * Divide and Conquer
      * time complexity: O(log(min(m, n)))
      * sapce complexity: O(1)
      */
