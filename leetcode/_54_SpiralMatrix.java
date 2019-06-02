@@ -29,14 +29,14 @@ public class _54_SpiralMatrix {
             }
             colEnd--;
             // add bottom row
-            if (rowBegin <= rowEnd) {   // since rowBegin++ in step1, do check it!
+            if (rowBegin <= rowEnd) {   // avoid duplicate for last element, do check it!
                 for (int i = colEnd; i >= colBegin; i--) {
                     res.add(matrix[rowEnd][i]);
                 }
             }
             rowEnd--;
             // add left col
-            if (colBegin <= colEnd) {   // since colEnd-- in step2, do check it!
+            if (colBegin <= colEnd) {   // avoid duplicate for last element, do check it!
                 for (int i = rowEnd; i >= rowBegin; i--) {
                     res.add(matrix[i][colBegin]);
                 }
