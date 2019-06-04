@@ -42,7 +42,7 @@ public class _62_UniquePaths {
      * Combination(Count, k)
      n - 1 steps to right, m - 1 steps to down
      * time : O(m)
-     * space : (1)
+     * space : O(1)
      */
     public int uniquePaths3(int m, int n) {
         int count = m + n - 2;
