@@ -12,18 +12,22 @@ public class _102_BinaryTreeLevelOrderTraversal {
     public static List<List<Integer>> levelOrder(TreeNode root) {
 
         List<List<Integer>> res = new ArrayList<>();
-        if (root == null) return res;
+        if (root == null)
+            return res;
 
-        Queue<TreeNode> queue = new LinkedList<>();
+        Queue<TreeNode> queue = new LinkedList<>();   // keep the nodes in each level
         queue.offer(root);
         while (!queue.isEmpty()) {
             int size = queue.size();
             List<Integer> list = new ArrayList<>();
             for (int i = 0; i < size; i++) {
                 TreeNode cur = queue.poll();
-                if (cur.left != null) queue.offer(cur.left);
-                if (cur.right != null) queue.offer(cur.right);
-                list.add(cur.val);
+                // add the child nodes of each nodes in current level
+                if (cur.left != null)
+                    queue.offer(cur.left);
+                if (cur.right != null)
+                    queue.offer(cur.right);
+                list.add(cur.val);   // add the nodes of each level to result
             }
             res.add(list);
         }
@@ -38,13 +42,15 @@ public class _102_BinaryTreeLevelOrderTraversal {
      */
     public static List<List<Integer>> levelOrder2(TreeNode root) {
         List<List<Integer>> res = new ArrayList<>();
-        if (root == null) return res;
+        if (root == null)
+            return res;
         helper(res, root, 0);
         return res;
     }
 
     public static void helper(List<List<Integer>> res, TreeNode root, int level) {
-        if (root == null) return;
+        if (root == null)
+            return;
         if (level >= res.size()) {
             res.add(new ArrayList<>());
         }
