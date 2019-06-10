@@ -2,6 +2,13 @@ import java.util.Stack;
 
 public class _99_RecoverBinarySearchTree {
     /**
+     * Inorder traversal: should be an increasing list
+     * 1 2 3 4 5 6
+     * if 1 5 3 4 2 6, test preNode.val > curNode.val
+     * 5 > 3 wrong, first node (need to be switched) is preNode: 5
+     * 4 > 2 wrong, second node (need to be switched) is curNode: 2
+     */
+    /**
      * Recursive
      * time: O(n)
      * space: O(n)
