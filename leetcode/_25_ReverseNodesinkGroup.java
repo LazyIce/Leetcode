@@ -1,6 +1,6 @@
 public class _25_ReverseNodesinkGroup {
     /**
-     * Recursive
+     * Recursion
      * time: O(n)
      * space: O(n)
      */
@@ -31,7 +31,7 @@ public class _25_ReverseNodesinkGroup {
     }
 
     /**
-     * Iterative
+     * Iteration
      * time: O(n)
      * space: O(1)
      *

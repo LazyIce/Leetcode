@@ -4,7 +4,7 @@ import java.util.Stack;
 
 public class _94_BinaryTreeInorderTraversal {
     /**
-     * recursive
+     * Recursion
      * time: O(n)
      * space: O(n)
      */
@@ -25,7 +25,7 @@ public class _94_BinaryTreeInorderTraversal {
     }
 
     /**
-     * iterative
+     * Iteration
      * time: O(n)
      * space: O(n)
      */

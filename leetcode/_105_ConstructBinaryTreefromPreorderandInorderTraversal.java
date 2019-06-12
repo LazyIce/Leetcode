@@ -7,7 +7,7 @@ public class _105_ConstructBinaryTreefromPreorderandInorderTraversal {
      * So, inorder[5] is root
      * inorder[0] - inorder[4] is on the left side, inorder[6] to the end is on the right side.
      * Recursively doing this on subarrays
-     * Recursive
+     * Recursion
      * time: O(n)
      * space: O(n)
      */
@@ -36,7 +36,7 @@ public class _105_ConstructBinaryTreefromPreorderandInorderTraversal {
     }
 
     /**
-     * Iterative
+     * Iteration
      * time: O(n)
      * space: O(n)
      */

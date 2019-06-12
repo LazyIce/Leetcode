@@ -2,7 +2,7 @@ import java.util.Stack;
 
 public class _114_FlattenBinaryTreetoLinkedList {
     /**
-     * Recursive
+     * Recursion
      * time: O(n)
      * space: O(n)
      */
@@ -20,7 +20,7 @@ public class _114_FlattenBinaryTreetoLinkedList {
     }
 
     /**
-     * Iterative
+     * Iteration
      * time: O(n)
      * space: O(n)
      */

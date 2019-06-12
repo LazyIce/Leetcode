@@ -5,7 +5,7 @@ import java.util.Queue;
 
 public class _102_BinaryTreeLevelOrderTraversal {
     /**
-     * Iterative
+     * Iteration
      * time: O(n)
      * space: O(n)
      */
@@ -36,7 +36,7 @@ public class _102_BinaryTreeLevelOrderTraversal {
     }
 
     /**
-     * Recursive
+     * Recursion
      * time: O(n)
      * space: O(n)
      */

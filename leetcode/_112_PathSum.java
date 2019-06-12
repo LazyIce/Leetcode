@@ -2,7 +2,7 @@ import java.util.Stack;
 
 public class _112_PathSum {
     /**
-     * Recursive
+     * Recursion
      * time: O(n)
      * spaec: O(n)
      */
@@ -15,7 +15,7 @@ public class _112_PathSum {
     }
 
     /**
-     * Iterative
+     * Iteration
      * time: O(n)
      * spaec: O(n)
      */

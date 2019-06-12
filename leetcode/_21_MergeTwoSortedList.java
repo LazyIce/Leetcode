@@ -1,6 +1,6 @@
 public class _21_MergeTwoSortedList {
     /**
-     * Iterative
+     * Iteration
      * time: O(n)
      * space: O(n)
      */
@@ -29,7 +29,7 @@ public class _21_MergeTwoSortedList {
     }
 
     /**
-     * Recursive
+     * Recursion
      * time: O(n)
      * space: O(n)
      */

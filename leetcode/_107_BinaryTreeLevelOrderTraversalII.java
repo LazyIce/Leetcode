@@ -5,7 +5,7 @@ import java.util.LinkedList;
 
 public class _107_BinaryTreeLevelOrderTraversalII {
     /**
-     * Iterative
+     * Iteration
      * time: O(n)
      * space: O(n)
      */
@@ -35,7 +35,7 @@ public class _107_BinaryTreeLevelOrderTraversalII {
     }
 
     /**
-     * Recursive
+     * Recursion
      * time: O(n)
      * space: O(n)
      */

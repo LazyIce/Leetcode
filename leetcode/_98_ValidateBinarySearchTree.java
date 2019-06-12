@@ -2,7 +2,7 @@ import java.util.Stack;
 
 public class _98_ValidateBinarySearchTree {
     /**
-     * Recursive
+     * Recursion
      * time: O(n)
      * space: O(n)
      */
@@ -25,7 +25,7 @@ public class _98_ValidateBinarySearchTree {
     }
 
     /**
-     * Iterative
+     * Iteration
      * time: O(n)
      * space: O(n)
      */

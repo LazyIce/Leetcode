@@ -9,7 +9,7 @@ public class _99_RecoverBinarySearchTree {
      * 4 > 2 wrong, second node (need to be switched) is curNode: 2
      */
     /**
-     * Recursive
+     * Recursion
      * time: O(n)
      * space: O(n)
      */
@@ -39,7 +39,7 @@ public class _99_RecoverBinarySearchTree {
     }
 
     /**
-     * Iterative
+     * Iteration
      * time: O(n)
      * space: O(n)
      */

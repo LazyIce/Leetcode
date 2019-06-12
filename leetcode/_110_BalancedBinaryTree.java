@@ -9,7 +9,7 @@ public class _110_BalancedBinaryTree {
         return helper(root) != -1;
     }
 
-    // recursive on each level, depth++
+    //  on each level, depth++
     // if we find that it's not balanced-height, return -1
     public int helper(TreeNode root) {
         if (root == null)

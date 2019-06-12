@@ -1,6 +1,6 @@
 public class _116_PopulatingNextRightPointersinEachNode {
     /**
-     * Recursive
+     * Recursion
      * time: O(n)
      * space: O(n)
      */
@@ -20,7 +20,7 @@ public class _116_PopulatingNextRightPointersinEachNode {
     }
 
     /**
-     * Iterative
+     * Iteration
      * time: O(n)
      * space: O(1)
      */

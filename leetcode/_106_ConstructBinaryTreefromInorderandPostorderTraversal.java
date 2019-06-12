@@ -2,7 +2,7 @@ import java.util.Stack;
 
 public class _106_ConstructBinaryTreefromInorderandPostorderTraversal {
     /**
-     * Recursive
+     * Recursion
      * time: O(n)
      * space: O(n)
      */
@@ -30,7 +30,7 @@ public class _106_ConstructBinaryTreefromInorderandPostorderTraversal {
     }
 
     /**
-     * Iterative
+     * Iteration
      * time: O(n)
      * space: O(n)
      */

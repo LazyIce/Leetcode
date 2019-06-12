@@ -1,6 +1,6 @@
 public class _24_SwapNodesinPairs {
     /**
-     * Iterative
+     * Iteration
      * time: O(n)
      * space: O(1)
      */
@@ -25,7 +25,7 @@ public class _24_SwapNodesinPairs {
     }
 
     /**
-     * Recursive
+     * Recursion
      * time: O(n)
      * space: O(n)
      */

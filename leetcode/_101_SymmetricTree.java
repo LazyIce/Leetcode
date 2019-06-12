@@ -23,7 +23,7 @@ public class _101_SymmetricTree {
     }
 
     /**
-     * Iterative
+     * Iteration
      * time: O(n)
      * space: O(n)
      */

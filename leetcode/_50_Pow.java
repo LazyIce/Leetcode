@@ -1,7 +1,7 @@
 public class _50_Pow {
     /**
      * Divide and Conquer
-     * Recursive
+     * Recursion
      * time: O(logn)
      * space: O(logn)
      */
@@ -26,7 +26,7 @@ public class _50_Pow {
     }
 
     /**
-     * Iterative
+     * Iteration
      * time: 0(logn)
      * space: O(1)
      */

@@ -3,7 +3,7 @@ import java.util.LinkedList;
 
 public class _104_MaximumDepthofBinaryTree {
     /**
-     * Recursive
+     * Recursion
      * time: O(n)
      * space: O(n)
      */
@@ -14,7 +14,7 @@ public class _104_MaximumDepthofBinaryTree {
     }
 
     /**
-     * Iterative
+     * Iteration
      * time: O(n)
      * space: O(n)
      */
