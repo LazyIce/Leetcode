@@ -3,14 +3,14 @@ public class _117_PopulatingNextRightPointersinEachNodeII {
      * time: O(n)
      * space: O(1)
      */
-    public Node connect(Node root) {
+    public TreeLinkNode connect(TreeLinkNode root) {
         if (root == null)
             return null;
 
-        Node head = null; // head of the next level
-        Node prev = null; // the leading node of the next level
-        Node cur = root;  // current node of current level
-        Node res = cur;
+        TreeLinkNode head = null; // head of the next level
+        TreeLinkNode prev = null; // the leading node of the next level
+        TreeLinkNode cur = root;  // current node of current level
+        TreeLinkNode res = cur;
 
         while (cur != null) {
             while (cur != null) {

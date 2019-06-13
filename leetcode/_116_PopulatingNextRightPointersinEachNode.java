@@ -4,7 +4,7 @@ public class _116_PopulatingNextRightPointersinEachNode {
      * time: O(n)
      * space: O(n)
      */
-    public Node connect1(Node root) {
+    public TreeLinkNode connect1(TreeLinkNode root) {
         if (root == null)
             return null;
         if (root.left != null) {
@@ -24,14 +24,14 @@ public class _116_PopulatingNextRightPointersinEachNode {
      * time: O(n)
      * space: O(1)
      */
-    public Node connect2(Node root) {
+    public TreeLinkNode connect2(TreeLinkNode root) {
         if (root == null)
             return null;
         // start is used to traversal left node in depth: start = start.left
         // cur is used to traversal cur node in breadth: cur = cur.next;
-        Node start = root;
+        TreeLinkNode start = root;
         while (start != null) {
-            Node cur = start;
+            TreeLinkNode cur = start;
             while (cur != null) {
                 if (cur.left != null) {
                     cur.left.next = cur.right;
