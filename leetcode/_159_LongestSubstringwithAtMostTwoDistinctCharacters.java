@@ -29,6 +29,7 @@ public class _159_LongestSubstringwithAtMostTwoDistinctCharacters {
             }
             res = Math.max(res, end - start);
         }
+
         return res;
     }
 }
