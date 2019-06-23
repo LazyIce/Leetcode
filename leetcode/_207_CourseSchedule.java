@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 public class _207_CourseSchedule {
     /**
-     * Topology Sort
+     * BFS Topology Sort
      * time: O(V+E)
      * space: O(n)
      */
@@ -41,7 +41,7 @@ public class _207_CourseSchedule {
     /**
      * DFS
      * time: O(V+E)
-     * space: O(V)
+     * space: O(n)
      */
     public boolean canFinish(int numCourses, int[][] prerequisites) {
         List<List<Integer>> courses = new ArrayList<>();
@@ -75,7 +75,7 @@ public class _207_CourseSchedule {
             if(visited[eligibleCourse] == 1)
                 return false; // has been visited while visiting its children - cycle !!!!
             if(visited[eligibleCourse]  == 0) { // not visited
-                if (!dfs(eligibleCourse,courses, visited))
+                if (!dfs(eligibleCourse, courses, visited))
                     return false;
             }
         }
