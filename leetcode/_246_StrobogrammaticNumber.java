@@ -1,0 +1,12 @@
+public class _246_StrobogrammaticNumber {
+    /**
+     * time: O(n)
+     * space: O(1)
+     */
+    public boolean isStrobogrammatic(String num) {
+        for (int i=0, j=num.length()-1; i <= j; i++, j--)
+            if (!"00 11 88 69 96".contains(num.charAt(i) + "" + num.charAt(j)))
+                return false;
+        return true;
+    }
+}
