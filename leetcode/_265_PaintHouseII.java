@@ -14,7 +14,9 @@ public class _265_PaintHouseII {
         // min2 is the index of the 2nd-smallest cost till previous house
         int min1 = -1, min2 = -1;
         for (int i = 0; i < n; i++) {
+            // get the index of the 1st and 2nd smallest cost in previous house
             int last1 = min1, last2 = min2;
+            // keep the index of the 1st and 2nd smallest cost in current house
             min1 = -1; min2 = -1;
             for (int j = 0; j < k; j++) {
                 if (j != last1) {
@@ -22,7 +24,7 @@ public class _265_PaintHouseII {
                 } else {
                     costs[i][j] += last2 < 0 ? 0 : costs[i - 1][last2];
                 }
-
+                // update the index of the 1st and 2nd smallest cost in current house
                 if (min1 < 0 || costs[i][j] < costs[i][min1]) {
                     min2 = min1;
                     min1 = j;
@@ -31,6 +33,7 @@ public class _265_PaintHouseII {
                 }
             }
         }
+
         return costs[n - 1][min1];
     }
 }
