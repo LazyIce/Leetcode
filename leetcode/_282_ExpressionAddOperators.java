@@ -23,9 +23,10 @@ public class _282_ExpressionAddOperators {
             }
         }
         for (int i = start; i < num.length(); i++) {
-            // our constraints
+            // handle the cases like 01
             if (i != start && num.charAt(start) == '0')
                 break;
+            // get the cur val
             long cur = Long.parseLong(num.substring(start, i + 1));
             if (start == 0) {
                 helper(res, num, target, formula + cur, i + 1, cur, cur);
