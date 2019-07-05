@@ -35,8 +35,9 @@ public class _300_LongestIncreasingSubsequence {
     public int binarySearch(int num, int maxLen, int[] maxLens) {
         int left = 1, right = maxLen;
         while(left <= right) {
-            int mid = left + (right-left) / 2;
-            if(maxLens[mid] < num) left = mid + 1;
+            int mid = (right-left) / 2 + left;
+            if(maxLens[mid] < num)
+                left = mid + 1;
             else right = mid - 1;
         }
         return left;
