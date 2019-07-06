@@ -4,7 +4,8 @@ import java.util.LinkedList;
 public class _297_SerializeandDeserializeBinaryTree {
     // Encodes a tree to a single string.
     public String serialize(TreeNode root) {
-        if (root == null) return "";
+        if (root == null)
+            return "";
         StringBuilder res = new StringBuilder();
         Queue<TreeNode> queue = new LinkedList<>();
         queue.offer(root);
@@ -23,7 +24,8 @@ public class _297_SerializeandDeserializeBinaryTree {
 
     // Decodes your encoded data to tree.
     public TreeNode deserialize(String data) {
-        if (data == "") return null;
+        if (data == "")
+            return null;
         String[] str = data.split(" ");
         TreeNode root = new TreeNode(Integer.parseInt(str[0]));
         Queue<TreeNode> queue = new LinkedList<>();

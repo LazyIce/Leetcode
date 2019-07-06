@@ -1,0 +1,17 @@
+public class _303_RangeSumQueryImmutable {
+    /**
+     * Dynamic Programming
+     */
+    private int[] sums;
+
+    public _303_RangeSumQueryImmutable(int[] nums) {
+        sums = new int[nums.length + 1];
+        for (int i = 0; i < nums.length; i++) {
+            sums[i + 1] = sums[i] + nums[i];
+        }
+    }
+
+    public int sumRange(int i, int j) {
+        return sums[j + 1] - sums[i];
+    }
+}

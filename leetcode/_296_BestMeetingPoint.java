@@ -5,6 +5,7 @@ public class _296_BestMeetingPoint {
     /**
      * time: O(m*n)
      * space: O(n)
+     * consider the median of all points
      */
     public int minTotalDistance(int[][] grid) {
         if (grid == null || grid.length == 0 || grid[0].length == 0)
