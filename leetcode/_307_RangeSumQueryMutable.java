@@ -11,7 +11,7 @@ public class _307_RangeSumQueryMutable {
         public NumArray1(int[] nums) {
             this.nums = nums;
             n = nums.length;
-            BIT = new int[n + 1];
+            BIT = new int[n + 1];   // BIT's index start from 1.
             for (int i = 0; i < n; i++)
                 init(i, nums[i]);
         }
@@ -21,7 +21,7 @@ public class _307_RangeSumQueryMutable {
             i++;
             while (i <= n) {
                 BIT[i] += val;
-                i += (i & -i); // extract the last bit: i & -i
+                i += (i & -i); // extract the last bit (least significant non-zero bit): i & -i
             }
         }
 
