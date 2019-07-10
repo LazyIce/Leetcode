@@ -33,7 +33,7 @@ public class _313_SuperUglyNumber {
     }
 
     /**
-     * PriorityQueue
+     * minHeap
      * time: O(n*logk)
      * space: O(max(n,k))
      */
