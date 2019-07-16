@@ -23,9 +23,9 @@ public class _336_PalindromePairs {
                 String str1 = words[i].substring(0, j);
                 String str2 = words[i].substring(j);
                 if (isPalindrome(str1)) {
-                    String str2rvs = new StringBuilder(str2).reverse().toString();
-                    if (map.containsKey(str2rvs) && map.get(str2rvs) != i) {
-                        res.add(Arrays.asList(map.get(str2rvs), i));
+                    String str2reverse = new StringBuilder(str2).reverse().toString();
+                    if (map.containsKey(str2reverse) && map.get(str2reverse) != i) {
+                        res.add(Arrays.asList(map.get(str2reverse), i));
                     }
                 }
                 if (str2.length() != 0 && isPalindrome(str2)) {
