@@ -1,3 +1,8 @@
+import java.util.Set;
+import java.util.HashSet;
+import java.util.Deque;
+import java.util.LinkedList;
+
 public class _353_DesignSnakeGame {
     class SnakeGame {
         private Set<Integer> set; // position
@@ -54,7 +59,7 @@ public class _353_DesignSnakeGame {
             deque.offerFirst(head);
             if (foodIndex < food.length && rowHead == food[foodIndex][0] && colHead == food[foodIndex][1]) {
                 foodIndex++;
-                ++score;
+                score++;
                 set.add(deque.peekLast());
                 return score;
             }
