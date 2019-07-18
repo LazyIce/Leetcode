@@ -2,7 +2,7 @@ public class _361_BombEnemy {
     /**
      * Dynamic Programming
      * time: O(m*n)
-     * space: O(m*n)
+     * space: O(n)
      */
     public int maxKilledEnemies(char[][] grid) {
         if (grid == null || grid.length == 0 || grid[0].length == 0)
