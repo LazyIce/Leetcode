@@ -2,6 +2,9 @@ public class _396_RotateFunction {
     /**
      * time: O(n)
      * space: O(1)
+     * F(k) - F(k-1) = Bk[1] + Bk[2] + ... + Bk[n-1] + (1-n)Bk[0]
+     *               = (Bk[0] + ... + Bk[n-1]) - nBk[0]
+     *               = sum - nBk[0]
      */
     public int maxRotateFunction(int[] A) {
         int sum = 0;

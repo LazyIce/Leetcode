@@ -7,6 +7,7 @@ public class _400_NthDigit {
         int len = 1;
         long count = 9;
         int start = 1;
+        // calculate the number contains the nth digit
         while (n > len * count) {
             n -= len * count;
             len += 1;
@@ -15,6 +16,7 @@ public class _400_NthDigit {
         }
         start += (n - 1) / len;
         String s = Integer.toString(start);
+
         return s.charAt((n - 1) % len) - '0';
     }
 }
