@@ -1,4 +1,8 @@
 public class _450_DeleteNodeinaBST {
+    /**
+     * time: O(h)
+     * spaec: O(h)
+     */
     public TreeNode deleteNode(TreeNode root, int key) {
         if (root == null) {
             return null;

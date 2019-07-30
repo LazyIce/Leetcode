@@ -1,10 +1,11 @@
 import java.util.Map;
 import java.util.HashMap;
 import java.util.List;
-import java.util.LinkedList;
+import java.util.ArrayList;
 
 public class _451_SortCharactersByFrequency {
     /**
+     * Bucket Sort
      * time: O(n)
      * space: O(n)
      */
@@ -18,7 +19,7 @@ public class _451_SortCharactersByFrequency {
         for (char c : map.keySet()) {
             int freq = map.get(c);
             if (bucket[freq] == null) {
-                bucket[freq] = new LinkedList<>();
+                bucket[freq] = new ArrayList<>();
             }
             bucket[freq].add(c);
         }

@@ -6,7 +6,13 @@ import java.util.Map;
 import java.util.HashMap;
 
 public class _425_WordSquares {
+    /**
+     * DFS
+     * time: O(n!)
+     * space: O(n*max(len(word)))
+     */
     public List<List<String>> wordSquares(String[] words) {
+        // key is the prefix, value is the set of words with the same prefix
         Map<String, Set<String>> prefix = new HashMap<>();
         for (String word : words) {
             for (int i = 1; i <= word.length(); i++) {
