@@ -28,8 +28,7 @@ public class _524_01Matrix {
             for (int[] dir : dirs) {
                 int r = point[0] + dir[0];
                 int c = point[1] + dir[1];
-                if (r < 0 || r >= m || c < 0 || c >= n ||
-                        matrix[r][c] <= matrix[point[0]][point[1]] + 1) {
+                if (r < 0 || r >= m || c < 0 || c >= n || matrix[r][c] <= matrix[point[0]][point[1]] + 1) {
                     continue;
                 }
                 queue.offer(new int[]{r, c});
