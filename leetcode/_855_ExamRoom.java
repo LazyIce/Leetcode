@@ -8,10 +8,14 @@ public class _855_ExamRoom {
         int N;
 
         class Interval {
-            int x, y, dist;
+            int x;
+            int y;
+            int dist;
+
             public Interval(int x, int y) {
                 this.x = x;
                 this.y = y;
+
                 if (x == -1) {
                     this.dist = y;
                 } else if (y == N) {
@@ -23,7 +27,7 @@ public class _855_ExamRoom {
         }
 
         public ExamRoom(int N) {
-            this.pq = new PriorityQueue<>((a, b) -> a.dist != b.dist? b.dist - a.dist : a.x - b.x);
+            this.pq = new PriorityQueue<>((a, b) -> a.dist != b.dist ? b.dist - a.dist : a.x - b.x);
             this.N = N;
             pq.add(new Interval(-1, N));
         }
@@ -32,9 +36,13 @@ public class _855_ExamRoom {
         public int seat() {
             int seat = 0;
             Interval interval = pq.poll();
-            if (interval.x == -1) seat = 0;
-            else if (interval.y == N) seat = N - 1;
-            else seat = (interval.x + interval.y) / 2;
+            if (interval.x == -1) {
+                seat = 0;
+            } else if (interval.y == N) {
+                seat = N - 1;
+            } else {
+                seat = (interval.x + interval.y) / 2;
+            }
 
             pq.offer(new Interval(interval.x, seat));
             pq.offer(new Interval(seat, interval.y));
@@ -44,17 +52,24 @@ public class _855_ExamRoom {
 
         // O(n)Find head and tail based on p. Delete and merge two ends
         public void leave(int p) {
-            Interval head = null, tail = null;
+            Interval head = null;
+            Interval tail = null;
             List<Interval> intervals = new ArrayList<>(pq);
             for (Interval interval : intervals) {
-                if (interval.x == p) tail = interval;
-                if (interval.y == p) head = interval;
-                if (head != null && tail != null) break;
+                if (interval.x == p) {
+                    tail = interval;
+                }
+                if (interval.y == p) {
+                    head = interval;
+                }
+                if (head != null && tail != null) {
+                    break;
+                }
             }
-            // Delete
+
             pq.remove(head);
             pq.remove(tail);
-            // Merge
+
             pq.offer(new Interval(head.x, tail.y));
         }
     }
