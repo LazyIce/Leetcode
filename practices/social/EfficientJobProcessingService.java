@@ -6,8 +6,6 @@ public class EfficientJobProcessingService {
     }
 
     public static int getMaxWeight(int[] weights, int[] tasks, int p) {
-        int res = 0;
-
         for (int i = 0; i < tasks.length; i++) {
             tasks[i] *= 2;
         }

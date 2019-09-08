@@ -1,7 +1,7 @@
 public class AutoScalePolicy {
     public static void main(String[] args) {
-        int instances = 1;
-        int[] averageUtil = new int[] {5, 10, 80};
+        int instances = 5;
+        int[] averageUtil = new int[] {30, 5, 4, 8, 19, 89};
         System.out.println(getInstances(instances, averageUtil));
     }
 
