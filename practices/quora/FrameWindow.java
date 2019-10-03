@@ -1,4 +1,4 @@
-public class RameWindow {
+public class FrameWindow {
     public static void main(String[] args) {
         int n = 6;
         String[] res = new String[n];
