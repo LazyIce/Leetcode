@@ -17,6 +17,9 @@ public class MaxArithmeticLength {
         int res = -1;
         int diff = s[1] - s[0];
         for (int i = diff; i > 0; i--) {
+            if ((s[1] - s[0]) % diff != 0) {
+                continue;
+            }
             int count = 2;
             int num = i + s[1];
             for (int j = 2; j < s.length; j++) {
