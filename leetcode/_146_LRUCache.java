@@ -38,7 +38,7 @@ public class _146_LRUCache {
 
     public void put(int key, int value) {
         Node node = map.get(key);
-        // chect whether the key is used
+        // check whether the key is used
         if (node != null) {
             node.val = value;  // update the value
             if (node != tail) {
