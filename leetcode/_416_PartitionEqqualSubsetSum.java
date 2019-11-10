@@ -1,11 +1,16 @@
 import java.util.Arrays;
 
 public class _416_PartitionEqqualSubsetSum {
+    public static void main(String[] args) {
+        int[] nums = new int[] {2, 4, 7, 9, 10, 6};
+        System.out.println(canPartition1(nums));
+        System.out.println(canPartition2(nums));
+    }
     /**
      * time: O(n)
      * space: O(n*sum)
      */
-    public boolean canPartition1(int[] nums) {
+    public static boolean canPartition1(int[] nums) {
         int sum = 0;
 
         for (int num : nums) {
@@ -47,7 +52,7 @@ public class _416_PartitionEqqualSubsetSum {
      * time: O(n)
      * space: O(n)
      */
-    public boolean canPartition2(int[] nums) {
+    public static boolean canPartition2(int[] nums) {
         int sum = 0;
         for (int i = 0; i < nums.length; i++) {
             sum += nums[i];
