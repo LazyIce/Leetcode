@@ -27,8 +27,7 @@ public class CountOfSmallerNumbersBeforeSelf {
             node.sum++;
             node.left = insert(num, node.left, res, i, presum);
         } else {
-            node.right
-                    = insert(num, node.right, res, i, presum + node.sum + node.dup);
+            node.right = insert(num, node.right, res, i, presum + node.sum + node.dup);
         }
         return node;
     }
