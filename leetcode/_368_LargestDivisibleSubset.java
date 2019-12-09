@@ -9,18 +9,14 @@ public class _368_LargestDivisibleSubset {
      * space: O(n^2)
      */
     public List<Integer> largestDivisibleSubset(int[] nums) {
-        if (nums == null || nums.length == 0)
-            return new ArrayList<>();
-
+        int n = nums.length;
+        int[] count = new int[n];
+        int[] pre = new int[n];
         Arrays.sort(nums);
-        int[] count = new int[nums.length]; // count[i]: the length of subset from [0, i], just like longest increasing subsequence
-        int[] pre = new int[nums.length]; // keep the number in subset
         int max = 0, index = -1;
-
-        for (int i = 0; i < nums.length; i++) {
+        for (int i = 0; i < n; i++) {
             count[i] = 1;
             pre[i] = -1;
-            // if the num[i] can divide the biggest number in a set, add num[i] to this set
             for (int j = i - 1; j >= 0; j--) {
                 if (nums[i] % nums[j] == 0) {
                     if (1 + count[j] > count[i]) {
@@ -28,13 +24,12 @@ public class _368_LargestDivisibleSubset {
                         pre[i] = j;
                     }
                 }
-                if (count[i] > max) {
-                    max = count[i];
-                    index = i;
-                }
+            }
+            if (count[i] > max) {
+                max = count[i];
+                index = i;
             }
         }
-
         List<Integer> res = new ArrayList<>();
         while (index != -1) {
             res.add(nums[index]);
